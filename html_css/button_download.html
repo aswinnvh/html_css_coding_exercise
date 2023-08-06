@@ -1,5 +1,5 @@
 <style>
-    .down
+    .download
     {
         color: rgb(108, 117, 125);
         border-style: solid;
@@ -11,7 +11,15 @@
         font-size: 6px;
         font-weight: bold;
         background-color: white;
+        transition: background-color 0.15s, color 0.15s;
+        cursor: pointer;
+    }
+
+    .download:hover
+    {
+        background-color: rgb(108, 117, 125);
+        color: white;
     }
 </style>
 
-<button class="down">Download</button>
+<button class = "download">Download</button>
